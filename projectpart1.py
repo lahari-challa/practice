@@ -4,7 +4,7 @@ import csv
 
 app = Flask(__name__)
 
-def getMyName(csv_file, file_name):
+def getYourName(csv_file, file_name):
     with open(csv_file,'r') as file:
         reader = csv.DictReader(file)
 
